@@ -1,0 +1,81 @@
+h1{
+ color:blue;
+ margin:60px    
+}
+
+
+
+/**/
+
+.header{
+background-color: crimson;
+display:flex;
+justify-content:space-between ;
+}
+
+.header *{
+border:solid;
+
+
+}
+
+.menu{
+background-color: cyan;
+padding:60px
+}
+
+.grid{
+display:flex;
+justify-content:space-evenly;
+ flex-wrap:wrap ;
+ background-color:lime;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+     flex-wrap:wrap ;
+     
+}
+
+
+p,h2{
+text-align: center;
+}
+
+
+
+.me{
+background-color: cadetblue;    
+display:flex ;
+}
+
+body{
+background-color: lime;
+    
+}
+
+
+
+a:visited{
+color: orchid ;
+}
+
+.item{
+position: relative;
+
+}
+
+.item p{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+}
+
+.item:hover p{
+opacity:1;
+}
+.item:hover img{
+opacity:0.33;
+}
